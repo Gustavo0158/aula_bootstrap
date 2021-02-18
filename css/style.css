@@ -3,17 +3,21 @@ body{
 	font: 20px arial, sans-serif;
 }
 
-.navbar {
+#navbar {
 	background-color:  #00264d;
 }
 
+.navbar {
+	background-color:  #00264d;
+
+}
 .quem-somos {
 	background-color:  #404040;
 	color: white;
 }
 
 .margin {
-	padding-top: 10px;
+	padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -24,4 +28,25 @@ body{
 .bg-footer{
 	background-color: black;
 	color: white;
+}
+
+.photo{
+	border: 1px solid #505050;
+	border-radius: 8%;
+}
+
+#baixo{
+  margin-left: 425px ;
+  margin-bottom: 15px;
+  margin-top: 15px; 
+}
+
+.margin2{
+        
+     padding-top:15px;
+     padding-bottom: 15px; 
+}
+
+.sla{
+	background-color: black;
 }

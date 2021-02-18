@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
  <head>
-	<title>Minha página</title>
+	<title>Lar Maria da Luz</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
  <body>
-     <nav class="navbar navbar-expand-lg navbar-light margin" > 
-         <a class="navbar-brand" href="#">
-         	<img src="img/logo-global-labs.png" width="100" height="100">
-         </a>
-         <div class="collapse navbar-collapse">
-             <ul class="navbar-nav">
+
+      <!--logo-->
+ 	 <section id="navbar">
+         <div class="text-center container-fluid margin2">
+                <img src="img/logo.jpg" class="photo" alt="logo" width="200" height="200" >
+         </div>
+ 	 </section>
+
+     <!--botões-->
+     <nav class="navbar navbar-expand-lg navbar-light " > 
+                
+     	 <div class="container-fluid justify-content-center">
+             <ul  class="navbar-nav ">
          	   <li class="nav-item">
          		<a class="nav-link" href="#quemsomos">Quem somos</a>
          	   </li>
@@ -22,13 +29,16 @@
          	   <li class="nav-item">
          		<a class="nav-link" href="#serviços">Serviços</a>
          	   </li>
+               <li class="nav-item">
+         		<a class="nav-link" href="#contato">Contato</a>
+         	   </li>
              </ul>
          </div>
-     </nav>  
-     
+     </nav>
+
     <section id="quemsomos">
-    	<div class="container-fluid quem-somos text-center margin">
-    	   <h3 class="margin">Quem somos</h3>
+    	<div class="container-fluid quem-somos text-center margin2">
+    	   <h3 class="margin2">Quem somos</h3>
     	   <img src="img/notbook.jpg" class="rounded-circle" width="350" height="400">
     	   <h3>Somos um time comprometido com os resultados</h3>
     	</div>
@@ -37,7 +47,7 @@
     <section id="parceiros">
     	<div class="container-fluid text-center margin parceiros">
     		<h3>Parceiros</h3>
-            <div class="contairne">
+            <div class="contairner">
             	<div class="row">
             		<div class="col-lg-4">
             		  <img src="img/download.png" width="100%">
@@ -56,7 +66,7 @@
     <section id="serviços">
     	<div class="container-fluid text-center margin serviços">
     		<h3 class="margin">Serviços</h3>
-    		<div class="contairne">
+    		<div class="contairner">
     			<div class="row">
     				<div class="col-lg-6">
     					<p>Os ricos tem mas a materia mas esquecem do espirito</p>
@@ -70,10 +80,82 @@
     		</div>
     	</div>
     </section>
-   <footer>
-   	 <p class="container-fluid text-center bg-footer margin">Desenvolvido por Gustavo</p>
+   
+   <!--caroseul-->
+   <div class=" sla">
+<div id="carouselExampleIndicators" class="carousel slide mx-auto" data-bs-ride="carousel" style="height: 700px; width: 500px;">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/natal1.jpg" class="d-block mx-auto " width="500" height="700" alt="Evento de Natal">
+    </div>
+    <div class="carousel-item">
+      <img src="img/natal2.jpg" class="d-block mx-auto " width="500" height="700" alt="Evento de Natal">
+    </div>
+    <div class="carousel-item">
+      <img src="img/natal3.jpg" class="d-block mx-auto" width="500" height="700"  alt="Evento de Natal">
+    </div>
+    <div class="carousel-item">
+      <img src="img/natal4.jpg" class="d-block mx-auto" width="500" height="700"  alt="Evento de Natal">
+    </div>
+    <div class="carousel-item">
+      <img src="img/natal5.jpg" class="d-block mx-auto" width="500" height="700"  alt="Evento de Natal">
+    </div>
+    <div class="carousel-item">
+      <img src="img/natal6.jpg" class="d-block mx-auto" width="500" height="700"  alt="Evento de Natal">
+    </div>
+  </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</div>
+
+<div class="container-fluid">
+
+<iframe class="d-block mx-auto" width="560" height="315" src="https://www.youtube.com/embed/_GDGC3UBebY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+
+  <!--rodape-->
+   <footer id="contato" class="container-fluid text-center bg-footer margin">
+   	 <p>Contato</p>
+            <div class="contairne">
+            	<div class="row">
+            		<div class="col-lg-3">
+            		  <a href="https://www.facebook.com/larmariadaluz"  target="_blank" ><img src="img/face.png" width="20%" alt="logo_facebook"></a>
+            		  <p>Lar Maria da Luz</p>
+            		</div>
+            		<div class="col-lg-3">
+            		  <a href="https://www.instagram.com/larmariadaluz/" target="_blank"><img src="img/instagram.png" width="20%" alt="logo_instagram" ></a>
+            		  <p>@larmariadaluz</p>
+               		</div>
+            		<div class="col-lg-3">
+            		  <a href="https://api.whatsapp.com/send?phone=5511940352117&text=Ol%C3%A1%2C%20quero%20fazer%20uma%20doa%C3%A7%C3%A3o." target="_blank"><img src="img/whats.png" width="20%" alt="logo_Whatsapp"></a>
+            		  <p>(11) 94035-2117</p>
+            		</div>
+                    <div class="col-lg-3">
+            		  <a href="mailto:larmariadaluz@gmail.com" target="_blank"><img src="img/gmail.png" width="20%" alt="logo_Whatsapp"></a>	
+            		  <p>larmariadaluz@gmail.com</p>
+            		</div>
+            	</div>
+            </div>
    </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
  </body>
 
